@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280C99EA232205CD47802307 /* Pods_CashoopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDF625652BBA4DE74D6B484 /* Pods_CashoopUITests.framework */; };
+		2833EB9C1B685F3EF8BB2DDF /* Pods_Cashoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB80F974242813943F2075D /* Pods_Cashoop.framework */; };
 		6902195A1D9EEF310037A6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690219591D9EEF310037A6F4 /* AppDelegate.swift */; };
 		6902195C1D9EEF310037A6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902195B1D9EEF310037A6F4 /* ViewController.swift */; };
 		6902195F1D9EEF310037A6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902195D1D9EEF310037A6F4 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		690219671D9EEF310037A6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690219651D9EEF310037A6F4 /* LaunchScreen.storyboard */; };
 		690219721D9EEF310037A6F4 /* CashoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690219711D9EEF310037A6F4 /* CashoopTests.swift */; };
 		6902197D1D9EEF310037A6F4 /* CashoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902197C1D9EEF310037A6F4 /* CashoopUITests.swift */; };
+		A152B62F809F8A4BAAF673EB /* Pods_CashoopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2127A556FF668A525DDCD9D /* Pods_CashoopTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E89C4055F915B06AB3944DC /* Pods-CashoopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashoopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashoopTests/Pods-CashoopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CDF625652BBA4DE74D6B484 /* Pods_CashoopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashoopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		690219561D9EEF310037A6F4 /* Cashoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cashoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690219591D9EEF310037A6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6902195B1D9EEF310037A6F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		690219781D9EEF310037A6F4 /* CashoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6902197C1D9EEF310037A6F4 /* CashoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashoopUITests.swift; sourceTree = "<group>"; };
 		6902197E1D9EEF310037A6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2479ADFEFCAC5FB369E7D4 /* Pods-CashoopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashoopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashoopUITests/Pods-CashoopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E79F64E26908DB63993A591 /* Pods-Cashoop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cashoop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cashoop/Pods-Cashoop.debug.xcconfig"; sourceTree = "<group>"; };
+		C9AD3B8215FA16AC8D9A1F4F /* Pods-Cashoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cashoop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cashoop/Pods-Cashoop.release.xcconfig"; sourceTree = "<group>"; };
+		E2127A556FF668A525DDCD9D /* Pods_CashoopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashoopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED73BDF76142644F33760544 /* Pods-CashoopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashoopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashoopTests/Pods-CashoopTests.release.xcconfig"; sourceTree = "<group>"; };
+		F25C614F2F8453E600C74401 /* Pods-CashoopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashoopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashoopUITests/Pods-CashoopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBB80F974242813943F2075D /* Pods_Cashoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cashoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2833EB9C1B685F3EF8BB2DDF /* Pods_Cashoop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A152B62F809F8A4BAAF673EB /* Pods_CashoopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280C99EA232205CD47802307 /* Pods_CashoopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C1661BA1141A23D95960777 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E79F64E26908DB63993A591 /* Pods-Cashoop.debug.xcconfig */,
+				C9AD3B8215FA16AC8D9A1F4F /* Pods-Cashoop.release.xcconfig */,
+				1E89C4055F915B06AB3944DC /* Pods-CashoopTests.debug.xcconfig */,
+				ED73BDF76142644F33760544 /* Pods-CashoopTests.release.xcconfig */,
+				6D2479ADFEFCAC5FB369E7D4 /* Pods-CashoopUITests.debug.xcconfig */,
+				F25C614F2F8453E600C74401 /* Pods-CashoopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6902194D1D9EEF310037A6F4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				690219701D9EEF310037A6F4 /* CashoopTests */,
 				6902197B1D9EEF310037A6F4 /* CashoopUITests */,
 				690219571D9EEF310037A6F4 /* Products */,
+				4C1661BA1141A23D95960777 /* Pods */,
+				72410CB87FABBA200B8A3C4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = CashoopUITests;
 			sourceTree = "<group>";
 		};
+		72410CB87FABBA200B8A3C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBB80F974242813943F2075D /* Pods_Cashoop.framework */,
+				E2127A556FF668A525DDCD9D /* Pods_CashoopTests.framework */,
+				2CDF625652BBA4DE74D6B484 /* Pods_CashoopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 690219811D9EEF310037A6F4 /* Build configuration list for PBXNativeTarget "Cashoop" */;
 			buildPhases = (
+				EFA399F5778466BBB20FFADD /* [CP] Check Pods Manifest.lock */,
 				690219521D9EEF310037A6F4 /* Sources */,
 				690219531D9EEF310037A6F4 /* Frameworks */,
 				690219541D9EEF310037A6F4 /* Resources */,
+				F715DFE66113BEFD4FBA60AA /* [CP] Embed Pods Frameworks */,
+				4097569DA5EA27F7FD818069 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 690219841D9EEF310037A6F4 /* Build configuration list for PBXNativeTarget "CashoopTests" */;
 			buildPhases = (
+				9E2CD2B244904EB3155E94A2 /* [CP] Check Pods Manifest.lock */,
 				690219691D9EEF310037A6F4 /* Sources */,
 				6902196A1D9EEF310037A6F4 /* Frameworks */,
 				6902196B1D9EEF310037A6F4 /* Resources */,
+				DDD44C8F7862D5714D2F36CC /* [CP] Embed Pods Frameworks */,
+				A0FE715F0723AADC15E12515 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 690219871D9EEF310037A6F4 /* Build configuration list for PBXNativeTarget "CashoopUITests" */;
 			buildPhases = (
+				D5E6993286A4FEDF55C68C5E /* [CP] Check Pods Manifest.lock */,
 				690219741D9EEF310037A6F4 /* Sources */,
 				690219751D9EEF310037A6F4 /* Frameworks */,
 				690219761D9EEF310037A6F4 /* Resources */,
+				A08BD8484127FA5694FC4E83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4097569DA5EA27F7FD818069 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cashoop/Pods-Cashoop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2CD2B244904EB3155E94A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A08BD8484127FA5694FC4E83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CashoopUITests/Pods-CashoopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FE715F0723AADC15E12515 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CashoopTests/Pods-CashoopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E6993286A4FEDF55C68C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDD44C8F7862D5714D2F36CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CashoopTests/Pods-CashoopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA399F5778466BBB20FFADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F715DFE66113BEFD4FBA60AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cashoop/Pods-Cashoop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		690219521D9EEF310037A6F4 /* Sources */ = {
@@ -401,6 +572,7 @@
 		};
 		690219821D9EEF310037A6F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E79F64E26908DB63993A591 /* Pods-Cashoop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cashoop/Info.plist;
@@ -412,6 +584,7 @@
 		};
 		690219831D9EEF310037A6F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AD3B8215FA16AC8D9A1F4F /* Pods-Cashoop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cashoop/Info.plist;
@@ -423,6 +596,7 @@
 		};
 		690219851D9EEF310037A6F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E89C4055F915B06AB3944DC /* Pods-CashoopTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CashoopTests/Info.plist;
@@ -435,6 +609,7 @@
 		};
 		690219861D9EEF310037A6F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED73BDF76142644F33760544 /* Pods-CashoopTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CashoopTests/Info.plist;
@@ -447,6 +622,7 @@
 		};
 		690219881D9EEF310037A6F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2479ADFEFCAC5FB369E7D4 /* Pods-CashoopUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CashoopUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +634,7 @@
 		};
 		690219891D9EEF310037A6F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25C614F2F8453E600C74401 /* Pods-CashoopUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CashoopUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +663,7 @@
 				690219831D9EEF310037A6F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		690219841D9EEF310037A6F4 /* Build configuration list for PBXNativeTarget "CashoopTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +672,7 @@
 				690219861D9EEF310037A6F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		690219871D9EEF310037A6F4 /* Build configuration list for PBXNativeTarget "CashoopUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +681,7 @@
 				690219891D9EEF310037A6F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
